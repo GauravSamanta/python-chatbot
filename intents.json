@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Greetings", "Good morning"],
+      "responses": ["Hello! How can I assist you today?", "Hi there!", "Greetings! How can I help you with your pet related queries?"]
+    },
+    {
+      "tag": "pets_adoption",
+      "patterns": [" How do I know if I'm ready to adopt a pet?", "How do I choose the right pet for my family?", "How do I choose the right pet for my family?"],
+      "responses": ["Consider whether you have the time, resources, and commitment required to care for a pet throughout its entire life. This includes considering your living situation, financial stability, and ability to provide the necessary care, attention, and exercise. I can help guide you. What are your interests pets?"]
+    },
+    {
+      "tag": "pets",
+      "patterns": ["Which dog breeds are good for families with children?", " What are some low-maintenance dog breeds?"],
+      "responses": ["Breeds known for their patience, energy, and gentleness include Golden Retrievers, Labradors, and Beagles. However, individual temperament and how a dog is raised and trained also play significant roles. Breeds like Greyhounds, Dachshunds, and French Bulldogs are often considered lower maintenance due to their grooming needs and exercise requirements.Are you considering the process of adopting a pet?"]
+    },
+    {
+      "tag": "Adoption_Process",
+      "patterns": ["What is the process for adopting a pet from Petree?", "How much does it cost to adopt a pet from Petree?"],
+      "responses": ["Our adoption process is designed to ensure the best match between pets and families.You can also meet the pet at the store. Are you a new pet owner?"]
+    },
+    {
+      "tag": "health_care",
+      "patterns": ["What health checks do pets undergo before adoption?", "Is spaying/neutering required before adoption?"],
+      "responses": ["Before adoption, pets typically receive a comprehensive health evaluation that includes vaccinations, deworming, flea and tick treatment, a heartworm test (for dogs), and a FIV/FeLV test (for cats). This ensures that the pet is healthy and ready for a new home."]
+    },
+    {
+      "tag": "vet",
+      "patterns": ["How soon after adoption should I take my pet to the vet?", "What should I expect during the first vet visit?"],
+      "responses": ["The first visit typically includes a thorough physical examination, assessment of any prior medical records, discussions about diet, parasite prevention, and recommendations for vaccinations. It’s also an opportunity to ask questions about caring for your new pet.you can also check our shopping page for pets"]
+    },
+    {
+      "tag": "shopping",
+      "patterns": ["What essential items do I need to purchase before bringing a new pet home?"],
+      "responses": [" Before your new pet arrives, you should have food and water bowls, appropriate food, a comfortable bed, toys, a collar and leash (for dogs), a litter box and litter (for cats), grooming tools, and any necessary habitat equipment for exotic pets. You want know about pet food? "]
+    },
+    {
+      "tag": "food",
+      "patterns": [" How do I choose the right food for my pet?"],
+      "responses": [" Select a diet formulated for your pet’s specific life stage (e.g., puppy/kitten, adult, senior) and size or breed, if applicable. Look for foods that meet AAFCO nutrient profile guidelines. Consult with a veterinarian for pets with special dietary needs or health concerns. want to know about pets toys ? "]
+    },
+    {
+      "tag": "toy",
+      "patterns": [" What types of toys are safe for my pet?"],
+      "responses": ["Choose toys appropriate for your pet's size and chewing habits. Avoid toys with small parts that can be swallowed or chewed off and ingested. Regularly inspect toys for wear and tear, replacing them as necessary. "]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "Farewell", "Exit", "Bye"],
+      "responses": ["Goodbye! Feel free to return if you have more questions."]
+    }
+  ]
+}
